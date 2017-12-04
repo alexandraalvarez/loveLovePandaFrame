@@ -1,0 +1,72 @@
+/*formato general del body*/
+body {/*formato general del body*/
+	margin: 0 auto; /*margen*/
+	padding: 0; /*relleno*/
+	font-family: 'Roboto', sans-serif;
+}
+
+/*formato general del header*/
+header {/*formato general del header*/
+	padding: 2rem; /*relleno*/
+}
+header h1 {/*formato detallado del título h1*/
+	padding-bottom: 1rem; /*relleno inferior*/
+}
+
+/*formato general section panda one*/
+.panda-one .m12 {/*formato detallado de la columna 12*/
+	padding: 0 !important; /*relleno*/
+}
+.panda-one .panda-watching-me { /*formato general foto panda watching me*/
+	width: 100%; /*ancho*/
+	border-bottom: 1rem solid #ff8a65; /*borde inferior*/
+}
+
+/*formato general section about panda*/
+.about-panda { /*formato detallado de la section about panda*/
+	border-top: 2rem solid #aed581; /*borde superior*/
+	border-bottom: 2rem solid #aed581; /*borde inferior*/
+}
+.about-panda h3 { /*formato detallado del h3*/
+	padding: 1rem; /*relleno*/
+}
+.about-panda p { /*formato detallado del p*/
+	padding-bottom: 1rem;/*relleno inferior*/
+}
+
+/*formato general section about two*/
+.panda-two .m12 { /*formato detallado de la columna 12*/
+	padding: 0 !important; /*relleno*/
+}
+.panda-two .two-pandas { /*formato detallado de la foto dos*/
+	width: 100%; /*ancho*/
+	border-top: 2.8rem solid #ff8a65; /*borde inferior*/	
+}
+
+/*formato general section pictures*/
+.pictures { /*formato detallado de la section pictures*/
+	border-top: 1.3rem solid #ff8a65; /*borde superior*/
+	border-bottom: 2.8rem solid #ff8a65; /*borde inferior*/
+	font-size: 1.25rem; /*tamaño de fuente*/
+	padding: 3rem 2rem 1.5rem 2rem; /*relleno*/
+}
+/*formato general row mini pictures*/
+.mini-pictures .row { /*formato detallado del row*/
+	padding: 0 10rem 3rem 10rem; /*relleno*/
+}
+.mini-pictures .mini {/*formato detallado mini fotos*/
+	border: 0.5rem solid #FFFFFF;/*borde*/
+}
+
+/*formato general section panda three*/
+.panda-three .m12 {/*formato detallado de la columna 12*/
+	padding: 0 !important; /*relleno*/
+}
+.panda-three .boring-panda { /*formato detallado de la foto tres*/
+	width: 100%; /*ancho*/
+}
+
+/*formato general del footer*/
+footer {
+	padding-right: 1rem;
+}
